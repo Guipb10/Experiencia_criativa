@@ -8,8 +8,6 @@ import { useState } from "react";
 import Axios from '../Axios.js';
 import {useHistory} from "react-router";
 
-interface User{id:number, name:string, token:string}
-
 function Login() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -20,9 +18,12 @@ function Login() {
             password
         }).then((response)=> {
             localStorage.setItem("token", response.data.token);
+            localStorage.setItem("userId", response.data.id.toString());
+            localStorage.setItem("isAdmin", response.data.admin.toString());
             history.push("/pag");
-        })
+        });
     }
+
     return (
         <div id="page-login">
             <div className="sec01 py-5">
@@ -43,7 +44,7 @@ function Login() {
                             </div>
                             <a className="text pt-3" href="registrar">Ainda não é registrado? Clique aqui! </a>
                         </Col>
-                    </Row>  
+                    </Row>
                 </Container>
             </div>
         </div>

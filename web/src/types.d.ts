@@ -1,0 +1,1 @@
+interface User{id:number, name:string, token:string, username:string, admin:string, phone:string}

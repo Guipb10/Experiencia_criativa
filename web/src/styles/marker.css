@@ -1,0 +1,11 @@
+.crime_cur {
+    cursor: url('../img/local_hospital_black_24dp.svg') 2 2, url('../img/directions_car_black_24dp.cur') 2 2, auto
+}
+
+.acidente_cur {
+    cursor: url('../img/directions_car_black_24dp.svg') 2 2, url('../img/directions_car_black_24dp.cur') 2 2, auto
+}
+
+.sinistro_cur {
+    cursor: url('../img/offline_bolt_black_24dp.svg') 2 2, url('../img/offline_bolt_black_24dp.cur') 2 2, auto
+}

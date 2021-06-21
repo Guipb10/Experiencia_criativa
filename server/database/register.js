@@ -2,8 +2,10 @@ const { BOOLEAN } = require("sequelize");
 const Sequelize = require("sequelize");
 const connection = require("./database");
 
+const Marker = require('./marker');
+
 const register = connection.define('user',{
-    userId:{
+    id:{
         type: Sequelize.INTEGER,
         allowNull: false,
         primaryKey:true,
@@ -32,8 +34,6 @@ const register = connection.define('user',{
     }
 });
 
-register.sync({force:false}).then(()=>{
-
-});
+register.hasMany(Marker, {as: 'markers', onDelete: 'cascade'});
 
 module.exports = register;
