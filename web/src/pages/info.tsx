@@ -34,26 +34,11 @@ function Info() {
                         <Col lg={6} className="pt-5">
                             <h3 className="sobre-nos pt-5">Sobre nós</h3>
                             <p className="descricao">
-                                Lorem Ipsum is simply dummy text of the printing
-                                and typesetting industry. Lorem Ipsum has been the
-                                industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and
-                                scrambled it to make a type specimen book. It has
-                                survived not only five centuries, but also the leap into
-                                electronic typesetting, remaining essentially unchanged.
-                                It was popularised in the 1960s with the release of
-                                Letraset sheets containing Lorem Ipsum passages, and
-                                more recently with desktop publishing software like
-                                Aldus PageMaker including versions of Lorem Ipsum.
-                                It is a long established fact that a reader will be
-                                distracted by the readable content of a page when looking
-                                at its layout. The point of using Lorem Ipsum is that it
-                                has a more-or-less normal distribution of letters, as opposed
-                                to using 'Content here, content here', making it look like
-                                readable English. Many desktop publishing packages and web page
-                                editors now use Lorem Ipsum as their default model text, and a
-                                search for 'lorem ipsum' will uncover many web sites still in
-                                their infancy.
+                            Nosso projeto nasce com o objetivo de alertar os cidadãos brasileiros sobre os locais mais perigosos de suas respectivas cidades, 
+                            todos nós algum dia já sofremos situações de violência, seja no trânsito ou nas ruas, por um exemplo, não é difícil encontrar pessoas 
+                            que sofreram assaltos mas optaram por não recorrer a polícia, seja pela burocracia ou pela falta de esperança de recorrer o bem roubado, 
+                            e muitas dessas vezes a vítima segue calada e muitas outras pessoas sofrem assaltos no mesmo local pois os órgãos públicos não tomam conhecimento 
+                            dessa local de risco, nós oferecemos uma alternativa menos burocrática para as pessoas que gostariam de reportar estas situações. 
                             </p>
                             <div className="redes d-flex justify-content-end align-items-center px-5">
                                 <img className="icon mr-4" src={iconLinkedin} />

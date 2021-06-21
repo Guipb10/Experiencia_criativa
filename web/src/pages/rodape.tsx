@@ -10,28 +10,16 @@ function rodape() {
             <div className="sec01 py-5">
                 <Container>
                     <Row className=" d-flex align-items-center justify-content-between">
-                        <Col lg={3}> 
-                            <img className="logo img-fluid" src={logo} alt="logo" />
-                        </Col>
                         <Col lg={3}>
                             <a href="sobre-nos">
                                 <p className="text mb-2">Sobre a Safe City</p>
                             </a>
                             <a href="sobre-nos">
-                                <p className="text mb-2">Entre em Contato</p>
-                            </a>
-                            <a href="sobre-nos">
                                 <p className="text mb-2">Siga-nos nas redes</p>
                             </a>
                         </Col>
-                        <Col lg={6}>
-                            <h3 className="title pt-5 pt-lg-0">Receba notícias sobre novas atualizações</h3>
-                            <form className="py-3">
-                                <input className="email" type="email" placeholder="Seu e-mail"/>
-                            </form>
-                            <div>
-                                <a className="btn" href="#">Inscrever</a>
-                            </div>
+                        <Col lg={3}> 
+                            <a href="/"><img className="logo img-fluid" src={logo} alt="logo" /></a>
                         </Col>
                     </Row>
                 </Container>

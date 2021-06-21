@@ -4,6 +4,7 @@ import '../styles/login.css';
 import { Container, Row, Col, Button } from "react-bootstrap";
 import imagemLogin from '../img/carro.png';
 import logo from '../img/logo-inicio.jpeg';
+import Rodape from './rodape';
 import { useState } from "react";
 import Axios from '../Axios.js';
 import {useHistory} from "react-router";
@@ -45,6 +46,7 @@ function Login() {
                             <a className="text pt-3" href="registrar">Ainda não é registrado? Clique aqui! </a>
                         </Col>
                     </Row>
+                    <Rodape/>
                 </Container>
             </div>
         </div>
